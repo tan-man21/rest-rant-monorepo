@@ -32,8 +32,8 @@ function Navigation() {
     }
 
     return (
-        <nav>
-            <ul>
+        <nav style={{backgroundColor: '#232423'}}>
+            <ul style={{listStyle: 'none', display: 'flex', justifyContent: 'space-evenly'}}>
                 <li>
                     <a href="#" onClick={() => history.push("/")}>
                         Home
