@@ -32,7 +32,7 @@ function Navigation() {
     }
 
     return (
-        <nav style={{backgroundColor: '#232423'}}>
+        <nav style={{backgroundColor: '#B4D7FF'}}>
             <ul style={{listStyle: 'none', display: 'flex', justifyContent: 'space-evenly'}}>
                 <li>
                     <a href="#" onClick={() => history.push("/")}>
